@@ -140,7 +140,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 }
 .hero__inner {
   width: 100%; max-width: calc(var(--max) + var(--gutter) * 2); margin: 0 auto;
-  display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 40px 64px; align-items: end;
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 40px 64px; align-items: end;
   padding: 140px var(--gutter) 104px;
 }
 .hero h1 {
